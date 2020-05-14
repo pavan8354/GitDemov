@@ -104,7 +104,9 @@ public class HomePage extends base{
 			
 			// recieved the code from asianteam
 			// still i need to verify so be patience
+				log.info(failure);
 			
+			lp.getLogin().click();
 		
 		
 		

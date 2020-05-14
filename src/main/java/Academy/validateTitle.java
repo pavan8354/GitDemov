@@ -54,6 +54,8 @@ System.out.println("cANNOT FOUND aNY fILES please verify with your team ");
 	{
 		
 		driver.close();
+		 System.out.println("Test completed please verify with Co");
+		 System.out.println("Test completed please verify with Co Almost done with oracle");
 	
 		
 	}
