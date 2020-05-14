@@ -45,6 +45,9 @@ public class HomePage extends base{
 		log.info(text);
 		
 		lp.getLogin().click();
+		System.out.println("Error found by null pointer exception");
+		System.out.println("Error found by null pointer exception please change the syntax");
+		// please verify the project with sub team
 		
 		
 		
@@ -99,6 +102,8 @@ public class HomePage extends base{
 			
 			lp.getLogin().click();
 			
+			// recieved the code from asianteam
+			// still i need to verify so be patience
 			
 		
 		

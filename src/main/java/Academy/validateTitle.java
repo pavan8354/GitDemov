@@ -37,11 +37,17 @@ public class validateTitle extends base{
 		Assert.assertEquals(l.getTitle().getText(), "FEATURED CO123URSES");
 		 log.info("Successfully validated Text message");
 		 System.out.println("Test completed");
+<<<<<<< HEAD
 		 // cannot import the code
 		 System.out.println("cANNOT FOUND aNY fILES ");
+System.out.println("cANNOT FOUND aNY fILES please verify with your team ");
 		;
+=======
+		 System.out.println("Test completed please verify with Co");
+		 System.out.println("Test completed please verify with Co Almost done with oracle");
 	
-		
+>>>>>>> cfdf5e985e2b8f88c3620ec1f90f825075bf9f04
+	
 		}
 	@AfterTest
 	public void teardown()
