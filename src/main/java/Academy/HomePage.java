@@ -81,7 +81,25 @@ public class HomePage extends base{
 		
 		return data;
 		
+		@Test(dataProvider="getData")
 		
+		public void basePageNavigation(String Username,String Password,String text) throws IOException
+		{
+
+			//one is inheritance
+
+			// creating object to that class and invoke methods of it
+			driver.get(prop.getProperty("url"));
+			LandingPage l=new LandingPage(driver);
+			l.getLogin().click(); //driver.findElement(By.css()
+			lp.getEmail().sendKeys(Username);
+			lp.getPassword().sendKeys(Password);
+
+			log.info(text);
+			
+			lp.getLogin().click();
+			
+			
 		
 		
 		
