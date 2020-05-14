@@ -63,5 +63,12 @@ public WebElement getTitle()
 return driver.findElement(title);
 
 }
+public WebElement getclose()
+
+{
+
+return driver.quit();
+
+}
 
 }
